@@ -11,6 +11,7 @@ h1 {
   font-size: 60px;
   letter-spacing: 1.7px;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 p {
@@ -19,4 +20,15 @@ p {
   font-family: 'Newsreader', serif;
   font-size: 18px;
   letter-spacing: 1.2px;
+}
+
+h1 + span {
+  margin-left: calc(50% - 60px);
+  font-family: 'Newsreader', serif;
+  font-size: 14px;
+}
+
+p + span {
+  font-family: 'Newsreader', serif;
+  font-size: 14px;
 }
